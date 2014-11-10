@@ -4,9 +4,12 @@ title: "为你的Octopress加速"
 date: 2014-11-09 15:04:25 +0800
 comments: true
 categories: [octopress]
+keywords: octopress,加速,速度,访问慢
+description: 为你的Octopress加速
+
 ---
 
-当你在国内打开[Github]()的时候感觉貌似还可以，但是每次打开你的octopress blog貌似每次相当卡。  
+当你在国内打开[Github](http://www.github.com)的时候感觉貌似还可以，但是每次打开你的octopress blog貌似每次相当卡。  
 用chrome浏览器打开的时候发现左下角每次卡在请求google的字体那一步。  
 因此我就打开Finder搜索这个地址，发现在source/_include/head.html 28行中存在如下链接的引用。  
 {% codeblock lang:js %}
@@ -78,18 +81,19 @@ curl -o TttUCfJ272GBgSKaOaD7KoX0hVgzZQUfRDuZrPvH3D8.ttf 'http://fonts.gstatic.co
 将其替换为
 {% codeblock lang:js %}
 <link href="{{ root_url }}/stylesheets/Google-Font/google-font.css" rel='stylesheet' type='text/css'>
-	<script src="{{ root_url }}/stylesheets/Google-Font/google-jquery-1.7.2.js"></script>
+<script src="{{ root_url }}/stylesheets/Google-Font/google-jquery-1.7.2.js"></script>
 {% endcodeblock %}  
 11.打开中断运行
 {% codeblock lang:bash %}
-	rake generate
-	rake deploy
+rake generate
+rake deploy
 {% endcodeblock %}
 
 至此所有的工作都做完了，赶快去打开你的blog 看看是否是飞一般的速度。
 
 ####ps:
 附上最终创建文件的截图  
+
 ![image](http://ww3.sinaimg.cn/bmiddle/a0027cf7gw1em4sesj1b3j20re09mmz1.jpg)
 
 

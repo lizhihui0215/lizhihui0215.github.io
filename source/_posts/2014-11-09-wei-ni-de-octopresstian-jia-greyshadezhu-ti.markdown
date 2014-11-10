@@ -4,6 +4,9 @@ title: "为你的Octopress添加Greyshade主题"
 date: 2014-11-09 05:33:26 +0800
 comments: true
 categories: [octopress]
+keywords: Greyshade, octopress, 主题
+description: Octopress添加Greyshade主题 git clone git@github.com:shashankmehta/
+
 ---
 [Greyshade](https://github.com/shashankmehta/greyshade)是一个Octopress的主题由于其简洁的风格深受大家喜爱。  
 [这里](https://github.com/shashankmehta/greyshade/wiki/Sites-using-Greyshade/)有一些使用这款主题的blog，包括我也在使用这款主题，下面我就开始教大家如何为Octopress安装这个主题。

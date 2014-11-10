@@ -4,6 +4,9 @@ title: "利用Github&amp;Octopress搭建自己的个人博客"
 date: 2014-11-09 05:19:05 +0800
 comments: true
 categories: [octopress]
+keywords: octopress,搭建octopress博客
+description: Github&amp;Octopress搭建自己的个人博客
+
 ---
 你们看到的这个blog 就是基于Octopress和Github搭建而成，我们接下来要做的就是为你搭建一个这样的blog。
 <!-- more -->
@@ -61,10 +64,10 @@ rake setup_github_pages
 ####将Octopress部署到Github上
 {% codeblock lang:rb %}
 rake generate
-rake deploy
 git add .
 git commit -m ‘your message’
 git push origin source
+rake deploy
 {% endcodeblock  %}	
 	
 至此所有的配置已经完成，在浏览器输入username.github.com 就可以看到你的博客了。  

@@ -7,7 +7,7 @@ title: lizhihui's Blog
 subtitle: iOS技术开发博客.
 author: lizhihui
 simple_search: http://baidu.com
-description:
+description: 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -102,7 +102,7 @@ facebook_like: true
 facebook_user:  "lizhihui0215"
 
 #lizhihui weibo
-weibo_share: true
+weibo_user: lizhihui0215
 
 
 

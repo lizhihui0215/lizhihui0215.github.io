@@ -4,6 +4,9 @@ title: "发布你的 First Blog"
 date: 2014-11-09 05:37:27 +0800
 comments: false
 categories: [octopress]
+keywords: octopress, 发布博客，发布octopress博客
+description: 用octopress 写博客
+
 ---
 接下来我们可以开始写自己的博客了，依次按照下面的步骤就可以发布自己的blog了。  
 <!-- more -->

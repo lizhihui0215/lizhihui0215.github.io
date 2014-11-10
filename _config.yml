@@ -62,7 +62,8 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
-
+#addThis
+addthis_profile_id: ra-54608e246a458359
 # Github repositories
 github_user: lizhihui0215
 github_repo_count: 0
@@ -71,7 +72,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: lizhihui0215
-twitter_tweet_button: false
+twitter_tweet_button: true
 
 # Google +1
 google_plus_one: false

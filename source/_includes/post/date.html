@@ -1,3 +1,8 @@
+
+<!--日期加入--> 
+{{ post.date | date: " %H:%M %b  %e, %Y" }}
+
+
 {% capture date %}{{ page.date }}{{ post.date }}{% endcapture %}
 {% capture date_formatted %}{{ page.date_formatted }}{{ post.date_formatted }}{% endcapture %}
 {% capture has_date %}{{ date | size }}{% endcapture %}
@@ -9,7 +14,7 @@
 {% if has_date != '0' %}
   {% capture time %}<time datetime="{{ date | datetime | date_to_xmlschema }}" {% if updated %}data-updated="true"{% endif %} itemprop="datePublished">{{ date_formatted }}</time>{% endcapture %}
 {% endif %}
-
+{{ post.data_xml }}
 {% if was_updated != '0' %}
   {% capture updated %}<time datetime="{{ updated | datetime | date_to_xmlschema }}" class="updated" itemprop="dateModified">Updated {{ updated_formatted }}</time>{% endcapture %}
 {% else %}{% assign updated = false %}{% endif %}

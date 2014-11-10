@@ -4,7 +4,7 @@
   <title><![CDATA[lizhihui's Blog]]></title>
   <link href="http://lizhihui0215.github.io/atom.xml" rel="self"/>
   <link href="http://lizhihui0215.github.io/"/>
-  <updated>2014-11-11T00:06:04+08:00</updated>
+  <updated>2014-11-11T02:02:16+08:00</updated>
   <id>http://lizhihui0215.github.io/</id>
   <author>
     <name><![CDATA[lizhihui]]></name>
@@ -18,7 +18,7 @@
     <link href="http://lizhihui0215.github.io/blog/2014/11/09/wei-ni-de-octopressjia-su/"/>
     <updated>2014-11-09T15:04:25+08:00</updated>
     <id>http://lizhihui0215.github.io/blog/2014/11/09/wei-ni-de-octopressjia-su</id>
-    <content type="html"><![CDATA[<p>当你在国内打开<a href="">Github</a>的时候感觉貌似还可以，但是每次打开你的octopress blog貌似每次相当卡。<br/>
+    <content type="html"><![CDATA[<p>当你在国内打开<a href="http://www.github.com">Github</a>的时候感觉貌似还可以，但是每次打开你的octopress blog貌似每次相当卡。<br/>
 用chrome浏览器打开的时候发现左下角每次卡在请求google的字体那一步。<br/>
 因此我就打开Finder搜索这个地址，发现在source/_include/head.html 28行中存在如下链接的引用。</p>
 
@@ -143,7 +143,7 @@ url(/stylesheets/Google-Font/TttUCfJ272GBgSKaOaD7KoX0hVgzZQUfRDuZrPvH3D8.ttf) fo
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class='js'><span class='line'><span class="o">&lt;</span><span class="nx">link</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&quot;/stylesheets/Google-Font/google-font.css&quot;</span> <span class="nx">rel</span><span class="o">=</span><span class="s1">&#39;stylesheet&#39;</span> <span class="nx">type</span><span class="o">=</span><span class="s1">&#39;text/css&#39;</span><span class="o">&gt;</span>
-</span><span class='line'>  <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;/stylesheets/Google-Font/google-jquery-1.7.2.js&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;/stylesheets/Google-Font/google-jquery-1.7.2.js&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
@@ -152,8 +152,8 @@ url(/stylesheets/Google-Font/TttUCfJ272GBgSKaOaD7KoX0hVgzZQUfRDuZrPvH3D8.ttf) fo
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'> rake generate
-</span><span class='line'>  rake deploy
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake generate
+</span><span class='line'>rake deploy
 </span></code></pre></td></tr></table></div></figure>
 
 
@@ -161,8 +161,9 @@ url(/stylesheets/Google-Font/TttUCfJ272GBgSKaOaD7KoX0hVgzZQUfRDuZrPvH3D8.ttf) fo
 
 <h4>ps:</h4>
 
-<p>附上最终创建文件的截图<br/>
-<img src="http://ww3.sinaimg.cn/bmiddle/a0027cf7gw1em4sesj1b3j20re09mmz1.jpg" alt="image" /></p>
+<p>附上最终创建文件的截图</p>
+
+<p><img src="http://ww3.sinaimg.cn/bmiddle/a0027cf7gw1em4sesj1b3j20re09mmz1.jpg" alt="image" /></p>
 ]]></content>
   </entry>
   
@@ -359,10 +360,10 @@ categories:  //which tag to be beloged
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
 </pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="n">rake</span> <span class="n">generate</span>
-</span><span class='line'><span class="n">rake</span> <span class="n">deploy</span>
 </span><span class='line'><span class="n">git</span> <span class="n">add</span> <span class="o">.</span>
 </span><span class='line'><span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="err">‘</span><span class="n">your</span> <span class="n">message</span><span class="err">’</span>
 </span><span class='line'><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">source</span>
+</span><span class='line'><span class="n">rake</span> <span class="n">deploy</span>
 </span></code></pre></td></tr></table></div></figure>
 
 

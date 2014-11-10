@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://lizhihui0215.github.io/blog/2014/11/09/wei-ni-de-octopressjia-su/</loc>
+    <lastmod>2014-11-09T15:04:25+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://lizhihui0215.github.io/blog/2014/11/09/fa-bu-ni-de-first-blog/</loc>
+    <lastmod>2014-11-09T05:37:27+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://lizhihui0215.github.io/blog/2014/11/09/wei-ni-de-octopresstian-jia-greyshadezhu-ti/</loc>
+    <lastmod>2014-11-09T05:33:26+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://lizhihui0215.github.io/blog/2014/11/09/li-yong-github-and-octopressda-jian-zi-ji-de-ge-ren-bo-ke/</loc>
+    <lastmod>2014-11-09T05:19:05+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://lizhihui0215.github.io/blog/archives/</loc>
-    <lastmod>2014-11-10T22:44:49+08:00</lastmod>
+    <lastmod>2014-11-10T22:48:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://lizhihui0215.github.io/</loc>
-    <lastmod>2014-11-10T22:44:49+08:00</lastmod>
+    <lastmod>2014-11-10T22:48:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://lizhihui0215.github.io/blog/categories/</loc>
-    <lastmod>2014-11-10T22:44:49+08:00</lastmod>
+    <lastmod>2014-11-10T22:48:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -1,0 +1,216 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>为你的Octopress添加Greyshade主题 - lizhihui&#8217;s Blog</title>
+	<meta name="author" content="lizhihui">
+
+	
+	<meta name="description" content="Octopress添加Greyshade主题 git clone git@github.com:shashankmehta/">
+	<meta name="keywords" content="Greyshade, octopress, 主题">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="lizhihui's Blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://lizhihui0215.github.io/blog/2014/11/09/wei-ni-de-octopresstian-jia-greyshadezhu-ti/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    
+	<link href="/stylesheets/Google-Font/google-font.css" rel='stylesheet' type='text/css'>
+	<script src="/stylesheets/Google-Font/google-jquery-1.7.2.js"></script>
+	
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+	<script src="/javascripts/md5.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5("lizhihui0215@gmail.com") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+		});
+	</script>
+	
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <h1>lizhihui</h1>
+    <p class="subtitle">Everything that has beginning that has an end alright.</p>
+    <nav id="main-nav">
+		<li><a href="/">Home</a></li>
+		<li><a href="/blog/archives">Blogs</a></li>
+		<li><a href="#">About</a></li>
+    </nav> 
+</ul>
+
+
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+        
+            <a class="weibo" href="http://www.weibo.com/lizhihui0215" title="Weibo">Weibo</a>
+        
+		
+			<a class="email" href="mailto:lizhihui0215@gmail.com" title="Email">Email</a>
+		
+		
+			<a class="facebook" href="http://www.facebook.com/lizhihui0215" title="Facebook">Facebook</a>
+		
+		
+		
+			<a class="twitter" href="http://twitter.com/lizhihui0215" title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href="https://github.com/lizhihui0215" title="GitHub">GitHub</a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+    	
+    	
+			<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+<p class="subtitle">Have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.</p>
+<p class="subtitle" style="text-align: right;">&#8211; Steve Jobs</p>
+</header>				
+			</div>
+		</div>	
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">为你的Octopress添加Greyshade主题</h1>
+	<div class="entry-content" itemprop="articleBody"><p><a href="https://github.com/shashankmehta/greyshade">Greyshade</a>是一个Octopress的主题由于其简洁的风格深受大家喜爱。<br/>
+<a href="https://github.com/shashankmehta/greyshade/wiki/Sites-using-Greyshade/">这里</a>有一些使用这款主题的blog，包括我也在使用这款主题，下面我就开始教大家如何为Octopress安装这个主题。</p>
+
+<!-- more -->
+
+
+<h4>为你的blog添加Greyshade主题</h4>
+
+<p>打开Termnial切换到你的octopress目录，依次执行一下命令</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git clone git@github.com:shashankmehta/greyshade.git .themes/greyshade //将greyshade checkout 到你的octopress的 .themes目录中
+</span><span class='line'><span class="nb">echo</span> <span class="s2">&quot;\$greyshade: color;&quot;</span> //替换<span class="s1">&#39;color&#39;</span>为你喜欢的颜色（注意颜色格式是12进制的web颜色例如#2893e3<span class="o">)</span>
+</span><span class='line'>rake <span class="s2">&quot;install[greyshade]&quot;</span> //安装 greyshade主题
+</span><span class='line'>rake generate
+</span><span class='line'>rake preview
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>至此主题安装成功打开浏览器输入localhost:4000就能看到新的主题了 如果想修改Greyshade的一些式样的话可以打开sass目录修改相应的_greyshade.scss文件。</p>
+
+<h4>ps:</h4>
+
+<p>1.记得发布到Github哦。<br/>
+2.Octopress的式样都放在sass目录下哦。<br/>
+3.布局放在source/_layouts下。<br/>
+4.由于Octopress是用<a href="http://jekyllrb.com/">jekyllrb</a>构建的，如果你需要更加详细的定制情参考<a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">这里</a>。</p>
+</div>
+
+</article>
+
+	<div class="share">
+  <div class="addthis_toolbox addthis_default_style addthis_32x32_style ">
+      <a class="addthis_button_sinaweibo"></a>
+      <a class="addthis_button_twitter"></a>
+      <a class="addthis_button_pinterest_share"></a>
+      <a class="addthis_button_compact"></a>
+      <a class="addthis_counter addthis_bubble_style"></a>
+  </div>
+  
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54608e246a458359" async="async"></script>
+
+  
+  
+</div>
+
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2014
+
+    lizhihui
+
+
+Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a></footer>
+		</div>
+	</div>
+	
+
+<script type="text/javascript">
+      var disqus_shortname = 'lizhihui0215';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://lizhihui0215.github.io/blog/2014/11/09/wei-ni-de-octopresstian-jia-greyshadezhu-ti/';
+        var disqus_url = 'http://lizhihui0215.github.io/blog/2014/11/09/wei-ni-de-octopresstian-jia-greyshadezhu-ti/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+</body>
+</html>

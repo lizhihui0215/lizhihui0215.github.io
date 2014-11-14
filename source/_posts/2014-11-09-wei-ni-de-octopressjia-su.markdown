@@ -9,7 +9,8 @@ description: 为你的Octopress加速
 
 ---
 
-当你在国内打开[Github](http://www.github.com)的时候感觉貌似还可以，但是每次打开你的octopress blog貌似每次相当卡。  
+当你在国内打开[Github](http://www.github.com)的时候感觉貌似还可以，但是每次打开你的octopress blog貌似每次相当卡,接下来我就介绍下如何解决这个问题。
+<!-- more --> 
 用chrome浏览器打开的时候发现左下角每次卡在请求google的字体那一步。  
 因此我就打开Finder搜索这个地址，发现在source/_include/head.html 28行中存在如下链接的引用。  
 {% codeblock lang:js %}
